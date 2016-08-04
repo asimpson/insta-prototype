@@ -1,0 +1,20 @@
+{
+
+    "ecmaFeatures": {
+        "modules": true
+    },
+
+    "parser": "babel-eslint",
+    "env": {
+        // I write for browser
+        "browser": false,
+        // in CommonJS
+        "node": true
+    },
+    "rules": {
+        "semi": [2, "always"],
+        "eqeqeq": [2, "smart"],
+        "no-debugger": 2,
+        "no-cond-assign": [2, "always"]
+    }
+}
